@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,24 +17,43 @@
   </style>
 </head>
 <body>
-
-  Features
-  Company
-  Careers
-  About
-
+  <div class="container">
+    <div class="row mobile-menu-div off">
+      <div class="menu-content ">
+        <div style="text-align: end">
+          <img id="cross-icon" src="./images/icon-close-menu.svg" alt="cross-img">
+        </div>
+        <div class="p-holder">
+          <p class="p-menu">Features</p>
+          <p class="p-menu">Company</p>
+          <p class="p-menu">Careers</p>
+          <p class="p-menu">About</p>
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </div>
+    </div>
+    <div class="row desktop-menu-div">
+      <div class="column-half"></div>
+      <div class="column-half"></div>
+    </div>
+    <div class="row">
+      <div class="column-half"></div>
+      <div class="column-half"></div>
+    </div>
+  </div>
   Login
   Register
 
   Make remote work
 
-  Get your team in sync, no matter your location. Streamline processes, 
+  Get your team in sync, no matter your location. Streamline processes,
   create team rituals, and watch productivity soar.
 
   Learn more
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
