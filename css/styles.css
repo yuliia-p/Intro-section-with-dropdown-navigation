@@ -1,3 +1,15 @@
+@import "https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap";
+
+body {
+  font-family: Epilogue, sans-serif;
+  color: hsl(0deg, 0%, 8%);
+}
+
+p {
+  line-height: 1.5rem;
+  color: hsl(0deg, 0%, 41%);
+}
+
 .off {
   display: none;
 }
@@ -7,7 +19,7 @@
 }
 
 .mobile-menu-div,
-.content-holder {
+.text-holder {
   padding: 1.5rem;
 }
 
@@ -15,12 +27,52 @@ img.mobile {
   width: 100%;
 }
 
+.text-holder {
+  text-align: center;
+}
+
 @media screen and (min-width: 756px) {
-  .mobile {
-    display: none;
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .content-holder {
+    width: 70%;
+    margin: auto;
   }
 
   .desktop {
     display: block;
+  }
+
+  .row,
+  .flex {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  img.desktop {
+    width: 100%;
+  }
+
+  .flex {
+    align-items: center;
+  }
+
+  .desktop-menu-div {
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .buttons-holder {
+    text-align: end;
+  }
+
+  .text-holder {
+    text-align: start;
   }
 }

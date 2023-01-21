@@ -20,7 +20,20 @@
 }
 
 @media screen and (min-width: 756px) {
+  .desktop {
+    display: block;
+  }
+
+  .row,
+  .flex {
+    display: flex;
+  }
+
   .column-half {
     flex-basis: 50%;
+  }
+
+  .desktop-reverse {
+    flex-direction: row-reverse;
   }
 }
