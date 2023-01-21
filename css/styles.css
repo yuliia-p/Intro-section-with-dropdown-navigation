@@ -1,0 +1,26 @@
+.off {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile-menu-div,
+.content-holder {
+  padding: 1.5rem;
+}
+
+img.mobile {
+  width: 100%;
+}
+
+@media screen and (min-width: 756px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
