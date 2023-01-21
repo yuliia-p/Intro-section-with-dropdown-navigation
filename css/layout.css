@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-half {
+  flex-basis: 100%;
+}
+
+.column-half-menu {
+  flex-basis: 50%;
+}
+
+.mobile-menu-div {
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 756px) {
+  .column-half {
+    flex-basis: 50%;
+  }
+}
