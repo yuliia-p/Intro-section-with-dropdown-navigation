@@ -31,6 +31,15 @@ img.mobile {
   text-align: center;
 }
 
+div.text-holder button {
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(0deg, 0%, 8%);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
 @media screen and (min-width: 756px) {
   .container {
     width: 100%;
@@ -74,5 +83,21 @@ img.mobile {
 
   .text-holder {
     text-align: start;
+    padding: 6rem 0;
+  }
+
+  h1 {
+    font-size: 5.5rem;
+  }
+
+  div.text-holder p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  div.text-holder button {
+    font-size: 1.5rem;
+    padding: 1.2rem 2.2rem;
   }
 }
