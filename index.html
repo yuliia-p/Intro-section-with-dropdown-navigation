@@ -22,34 +22,50 @@
         </div>
       </div>
       <div class="column-half column-half-menu">
-        <div class="menu-bars">
+        <div class="menu-bars" style="text-align: end;">
           <img id="menu-icon" src="./images/icon-menu.svg" alt="menu-bars">
         </div>
-        <div class="menu-content off">
-          <div style="text-align: end">
-            <img id="cross-icon" src="./images/icon-close-menu.svg" alt="cross-img">
-          </div>
-          <div class="p-holder">
-            <p class="p-menu">Features</p>
-            <p class="p-menu">Company</p>
-            <p class="p-menu">Careers</p>
-            <p class="p-menu">About</p>
-            <button>Login</button>
-            <button>Register</button>
+        <div class="menu-div-mobile on">
+          <div class="menu-content ">
+            <div style="text-align: end">
+              <img id="cross-icon" src="./images/icon-close-menu.svg" alt="cross-img">
+            </div>
+            <div class="p-holder">
+              <p class="p-menu">Features <img src="./images/icon-arrow-down.svg" alt="arrow-down" class="arrow-down"></p>
+              <p class="p-menu">Company <img src="./images/icon-arrow-down.svg" alt="arrow-down"></p>
+              <p class="p-menu">Careers</p>
+              <p class="p-menu">About</p>
+              <div class="button-holder-mobile">
+                <button class="login-b">Login</button>
+                <button class="reg-b">Register</button>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
     <div class="row desktop-menu-div desktop">
-      <div class="column-half"></div>
-      <div class="column-half"></div>
+      <div class="column-half flex" style="justify-content: space-between;">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo">
+        </div>
+        <p class="p-menu">Features<img src="./images/icon-arrow-down.svg" alt="arrow-down"></p>
+        <p class="p-menu">Company<img src="./images/icon-arrow-down.svg" alt="arrow-down"></p>
+        <p class="p-menu">Careers</p>
+        <p class="p-menu">About</p>
+      </div>
+      <div class="column-half buttons-holder">
+        <button class="login-b">Login</button>
+        <button class="reg-b">Register</button>
+      </div>
     </div>
-    <div class="row">
-      <div class="column-half">
+    <div class="row desktop-reverse content-holder">
+      <div class="column-half ">
         <img class="mobile" src="./images/image-hero-mobile.png" alt="image">
         <img class="desktop" src="./images/image-hero-desktop.png" alt="image">
       </div>
-      <div class="column-half content-holder" style="text-align: center;">
+      <div class="column-half text-holder" style=";">
         <h1>Make remote work</h1>
         <p>Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar.</p>
@@ -61,5 +77,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>

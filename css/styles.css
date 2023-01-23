@@ -1,3 +1,15 @@
+@import "https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap";
+
+body {
+  font-family: Epilogue, sans-serif;
+  color: hsl(0deg, 0%, 8%);
+}
+
+p {
+  line-height: 1.5rem;
+  color: hsl(0deg, 0%, 41%);
+}
+
 .off {
   display: none;
 }
@@ -7,7 +19,7 @@
 }
 
 .mobile-menu-div,
-.content-holder {
+.text-holder {
   padding: 1.5rem;
 }
 
@@ -15,12 +27,131 @@ img.mobile {
   width: 100%;
 }
 
+.text-holder {
+  text-align: center;
+}
+
+div.text-holder button {
+  color: hsl(0deg, 0%, 98%);
+  background-color: hsl(0deg, 0%, 8%);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.menu-content,
+.on {
+  padding: 1.5rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 16rem;
+  background-color: rgb(255 255 255);
+}
+
+.menu-div-mobile,
+.on {
+  position: fixed;
+  right: 16rem;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0 0 0 / 60%);
+}
+
+.button-holder-mobile {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.login-b,
+.reg-b {
+  flex-basis: 100%;
+  font-size: 1rem;
+}
+
+.login-b {
+  color: hsl(0deg, 0%, 41%);
+  font-size: 1.2;
+  border: none;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.reg-b {
+  color: hsl(0deg, 0%, 41%);
+  font-size: 1.2;
+  border: solid 1px hsl(0deg, 0%, 41%);
+  background-color: transparent;
+  padding: 0.8rem;
+  border-radius: 15px;
+}
+
+.p-holder {
+  padding: 4rem 1rem;
+}
+
 @media screen and (min-width: 756px) {
-  .mobile {
-    display: none;
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .content-holder {
+    width: 70%;
+    margin: auto;
   }
 
   .desktop {
     display: block;
+  }
+
+  .row,
+  .flex {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  img.desktop {
+    width: 100%;
+  }
+
+  .flex {
+    align-items: center;
+  }
+
+  .desktop-menu-div {
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .buttons-holder {
+    text-align: end;
+  }
+
+  .text-holder {
+    text-align: start;
+    padding: 6rem 0;
+  }
+
+  h1 {
+    font-size: 5.5rem;
+  }
+
+  div.text-holder p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-bottom: 2rem;
+  }
+
+  div.text-holder button {
+    font-size: 1.5rem;
+    padding: 1.2rem 2.2rem;
   }
 }
