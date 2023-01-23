@@ -42,7 +42,7 @@ div.text-holder button {
 
 .menu-content,
 .on {
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   position: fixed;
   right: 0;
   top: 0;
@@ -88,6 +88,10 @@ div.text-holder button {
   background-color: transparent;
   padding: 0.8rem;
   border-radius: 15px;
+}
+
+.p-holder {
+  padding: 4rem 1rem;
 }
 
 @media screen and (min-width: 756px) {
