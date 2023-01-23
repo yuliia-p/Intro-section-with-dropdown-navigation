@@ -170,4 +170,18 @@ div.text-holder button {
     font-size: 1.5rem;
     padding: 1.2rem 2.2rem;
   }
+
+  .p-menu,
+  div.features-menu-destop p {
+    cursor: pointer;
+  }
+
+  div.features-menu-destop,
+  .company-menu-destop {
+    position: absolute;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    box-shadow: 0 0 40px -1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
 }
