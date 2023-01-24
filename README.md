@@ -17,10 +17,11 @@ Users should be able to:
 <p align="middle">
 <img src="./images/desktop-gif.gif" width="1000">
 <img src="./images/mobile.png" width="300">
-<img src="./images/mobilegif.gif" width="300">
 <img src="./images/mobile-2.png" width="300">
 </p>
-
+<p align="middle">
+<img src="./images/mobile-gif.gif" width="300">
+</p>
 ### Links
 
 - Live Site [URL](https://your-live-site-url.com)
