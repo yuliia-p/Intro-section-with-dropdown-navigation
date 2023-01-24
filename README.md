@@ -14,7 +14,10 @@ Users should be able to:
 
 ### Screenshot
 
-
+<p align="middle">
+<img src="./images/desktop-gif.gif" width="1000">
+<img src="./images/mobile.png" width="300">
+</p>
 
 ### Links
 
@@ -27,7 +30,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - JS
 
