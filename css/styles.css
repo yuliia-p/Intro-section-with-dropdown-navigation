@@ -154,8 +154,9 @@ div.company-menu-destop p,
   }
 
   .desktop-menu-div {
-    padding: 2rem;
+    padding: 1rem;
     align-items: center;
+    font-size: 1rem;
   }
 
   .buttons-holder {
@@ -168,12 +169,12 @@ div.company-menu-destop p,
   }
 
   h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
   }
 
   div.text-holder p {
-    font-size: 1.5rem;
-    line-height: 2.3rem;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
     margin-bottom: 2rem;
   }
 
