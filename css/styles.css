@@ -38,6 +38,7 @@ div.text-holder button {
   border: none;
   border-radius: 15px;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .menu-content,
@@ -83,21 +84,25 @@ div.text-holder button {
   border: none;
   background-color: transparent;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .reg-b {
   color: hsl(0deg, 0%, 41%);
   font-size: 1.2;
-  border: solid 1px hsl(0deg, 0%, 41%);
+  border: solid 2px hsl(0deg, 0%, 41%);
   background-color: transparent;
   padding: 0.8rem;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .p-holder {
   padding: 4rem 1rem;
 }
 
+div.features-menu-destop p,
+div.company-menu-destop p,
 .features-mobile-click {
   cursor: pointer;
 }
@@ -108,6 +113,12 @@ div.text-holder button {
 
 .d-block {
   display: block;
+}
+
+.more-b:hover {
+  color: hsl(0deg, 0%, 8%);
+  background-color: transparent;
+  border: solid 2px hsl(0deg, 0%, 8%);
 }
 
 @media screen and (min-width: 756px) {
@@ -169,5 +180,25 @@ div.text-holder button {
   div.text-holder button {
     font-size: 1.5rem;
     padding: 1.2rem 2.2rem;
+    cursor: pointer;
+  }
+
+  .p-menu,
+  div.features-menu-destop p {
+    cursor: pointer;
+  }
+
+  div.features-menu-destop,
+  .company-menu-destop {
+    position: absolute;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    box-shadow: 0 0 40px -1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+
+  .reg-b:hover {
+    color: hsl(0deg, 0%, 8%);
+    border-color: hsl(0deg, 0%, 8%);
   }
 }
