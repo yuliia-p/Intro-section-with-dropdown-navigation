@@ -115,6 +115,12 @@ div.company-menu-destop p,
   display: block;
 }
 
+.more-b:hover {
+  color: hsl(0deg, 0%, 8%);
+  background-color: transparent;
+  border: solid 2px hsl(0deg, 0%, 8%);
+}
+
 @media screen and (min-width: 756px) {
   .container {
     width: 100%;
