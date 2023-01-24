@@ -15,7 +15,7 @@ Users should be able to:
 ### Screenshot
 
 <p align="middle">
-<img src="./images/desktop.gif" width="1000">
+<img src="./images/desk.gif" width="900">
 <img src="./images/mobile.png" width="300">
 <img src="./images/mobile-2.png" width="300">
 </p>
