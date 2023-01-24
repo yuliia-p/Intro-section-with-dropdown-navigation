@@ -22,6 +22,7 @@ Users should be able to:
 <p align="middle">
 <img src="./images/mobile-gif.gif" width="300">
 </p>
+
 ### Links
 
 - Live Site [URL](https://yuliia-p.github.io/Intro-section-with-dropdown-navigation/)
