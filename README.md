@@ -24,7 +24,7 @@ Users should be able to:
 </p>
 ### Links
 
-- Live Site [URL](https://your-live-site-url.com)
+- Live Site [URL](https://yuliia-p.github.io/Intro-section-with-dropdown-navigation/)
 
 ## My process
 
